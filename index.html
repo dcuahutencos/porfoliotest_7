@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/portfolio_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Oleo+Script+Swash+Caps:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <h1>Dianna Cuahutencos</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>About Me</h2>
+        <p>Hi, my name is Dianna! Design is a big passion of mine. I like the challenges that each new project brings as they push me to think creatively and problem-solve in unique ways. Whether I'm exploring new concepts or refining details, I always enjoy the process and find inspiration along the way! I'm someone driven by innovation and the satisfaction of creating something meaningful that resonates with others!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio Showcase</h2>
+        <div class="gallery">
+            <img src="assets/dianna_logo.JPG" alt="Logo design by Dianna Cuahutencos for 2024" loading="lazy">
+            <img src="assets/finalprintmag_diannacuahutencos.JPG" alt="Print magazine cover designed by Dianna Cuahutencos" loading="lazy">
+            <img src="assets/IMG_1529.JPG" alt="New Yorker cover concept by Dianna Cuahutencos" loading="lazy">
+            <img src="assets/IMG_3333.JPG" alt="College flyer design by Dianna Cuahutencos" loading="lazy">
+            <img src="assets/jazzposter%20piano.JPG" alt="Jazz festival poster by Dianna Cuahutencos" loading="lazy">
+            <img src="assets/SPIDERGWEN%20NETFLIX%20COMIC%20%20copy.JPG" alt="Spider-Gwen Netflix concept poster by Dianna Cuahutencos" loading="lazy">
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="assets/resume.pdf" download>here</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/graphixbydianna@gmail.com" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 by Dianna Cuahutencos. All rights reserved. Connect with me on <a href="#">LinkedIn</a> or <a href="#">Behance</a>.</p>
+    </footer>
+</body>
+
+</html>
